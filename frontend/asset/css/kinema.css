@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%; 
+}
+body {
+  	margin: 0; 
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  	display: block; 
+}
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline; 
+}
+a {
+  	background-color: transparent; 
+}
+a:active, a:hover {
+  	outline: 0; 
+}
+h1.title{
+	font-weight: bold;
+	color: #000;
+}
+.clear:before, .clear:after {
+  	content: ' ';
+  	display: table; }
+.clear {
+  	*zoom: 1; 
+}
+.clear:after {
+	clear: both; 
+}
+
+/*==================== MAIN =======================*/
+.space-testiaboutme{
+	margin-top: 150px;
+}
+.space-testiaboutme .aboutme{
+	font-size: 12px;
+	line-height: 20px;
+	font-style: italic;
+	color: #000;
+}
+.space-testiaboutme .text-centerred{
+	text-align: center;
+}
+/*======= BOOTSTRAP CUSTOM COMPONENT ============ */
+.form-group-bottom-10{
+	margin-bottom:10px; 
+}
+.form-group-bottom-25{
+	margin-bottom: 25px;
+}
