@@ -8,8 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With
 
-* [Bootstrap](http://www.dropwizard.io/1.0.2/docs/) - The Web Framework Used.
-* [SASS](https://maven.apache.org/) - Css Prepocessor Comming Soon.
+* [Bootstrap](getbootstrap.com/) - The Web Framewo.rk Used.
+* [Sass](http://sass-lang.com/) - Css Prepocessor Comming Soon.
+* [Photosop](https://photosop/) - Photosop Create A Web Desain.
 
 ## Versioning
 
@@ -23,6 +24,6 @@ Version : V 1.0
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
-rbaik
+
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
