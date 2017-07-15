@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [Sass](http://sass-lang.com/) - Css Prepocessor Comming Soon.
 * [Jquery](https://jquery.com/) - Javascript Framework.
 * [Tweenmax](https://greensock.com/) - Javascript Framework For Html 5 Animation.
-* [Photosop](https://photosop/) - Photosop Create A Web Desain.
+* [Photosop](http://.adobe.com/Photoshop‎) - Photosop Create A Web Desain.
 
 ## Versioning
 
