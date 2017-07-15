@@ -1,3 +1,8 @@
+/*========== INITIALIZER STYLES KINEMA ================
+	Author  : Dimas Prasetyo;
+	Email   : dimasprasetyo485@gmail.com;
+	Version : 1.0;
+=======================================================*/
 *{
 	margin: 0;
 	padding: 0;
@@ -38,22 +43,40 @@ h1.title{
 }
 
 /*==================== MAIN =======================*/
-.space-testiaboutme{
+.main-section-aboutme .space-testiaboutme{
 	margin-top: 150px;
 }
-.space-testiaboutme .aboutme{
-	font-size: 12px;
-	line-height: 20px;
+.main-section-aboutme .space-testiaboutme .aboutme{
+	font-size: 16px;
+	line-height: 25px;
 	font-style: italic;
 	color: #000;
 }
-.space-testiaboutme .text-centerred{
+.main-section-aboutme .space-testiaboutme .text-centerred{
 	text-align: center;
 }
+
+/*=============== IMAGE GRAYSCALE =============== */
+img.grayscales {
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all .6s ease;
+  -webkit-backface-visibility: hidden;
+  cursor: pointer;
+}
+img.grayscales:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  cursor: pointer;
+}
+
 /*======= BOOTSTRAP CUSTOM COMPONENT ============ */
 .form-group-bottom-10{
 	margin-bottom:10px; 
 }
 .form-group-bottom-25{
 	margin-bottom: 25px;
+}
+.form-group-bottom-100{
+	margin-bottom: 100px;
 }
