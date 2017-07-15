@@ -11,7 +11,7 @@
     <!-- Google Authorship and Publisher Markup -->
     <link rel="author" href="">
     <link rel="publisher" href=""> 
-    <!-- <link rel="stylesheet" href="frontend/asset/css/styles.css"> -->
+    <link rel="stylesheet" href="frontend/asset/css/styles.css">
     <link rel="stylesheet" href="frontend/asset/css/kinema.css">
     <link rel="stylesheet" href="frontend/asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="frontend/asset/css/preloader.css">
@@ -37,26 +37,26 @@
                 </div>
             </div>
         </section>
-        <!--nav>
+        <!-- <nav>
             <ul>
                 <li><a href="#intro"><span class="nav-dot"></span><span class="nav-label">Intro</span></a></li>
                 <li><a href="#slide01"><span class="nav-dot"></span><span class="nav-label">Images</span></a></li>
                 <li><a href="#slide02"><span class="nav-dot"></span><span class="nav-label">Position and Timing</span></a></li>
                 <li><a href="#slide03"><span class="nav-dot"></span><span class="nav-label">Download</span></a></li>
             </ul>
-        </nav>-->
-        <section class="main-section-aboutme">
+        </nav> -->
+        <section class="main-section-aboutme form-group-bottom-100">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="col-sm-12 col-lg-6">
                         <div class="col-lg-9">
-                            <img src="frontend/asset/img/images/slrcamera.jpg" class="img-responsive">
+                            <img src="frontend/asset/img/images/slrcamera.jpg" class="img-responsive grayscales">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="col-lg-10 col-sm-12 space-testiaboutme">
                             <div class="form-group-bottom-25">
-                                <h2 class="text-centerred">My Name is <strong>Ringgo</strong></h2>
+                                <h1 class="text-centerred">My Name is <strong>Ringgo</strong></h1>
                             </div>
                             <p class="aboutme">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt   
                                 mollit anim id est laborum. sed ut perspiciatis unde omnis iste
@@ -72,6 +72,41 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-section-portofolios-I form-group-bottom-100">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-ms-12 col-lg-6">
+                        <img src="frontend/asset/img/images/permanent-pleasures-I.png" class="img-responsive">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="section-main-portofolio">
+                            <img src="frontend/asset/img/images/porto-I.png" class="img-responsive grayscales">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-section-portofolios-II form-group-bottom-100">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-6">
+                        <img src="frontend/asset/img/images/permanent-pleasures-II.png" class="img-responsive">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="section-main-portofolio">
+                            <img src="frontend/asset/img/images/porto-II.png" class="img-responsive grayscales">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-slider-kinema form-group-bottom-100">
+            <div class="row">
+                <div class="col-lg-12">
+                    
                 </div>
             </div>
         </section>
