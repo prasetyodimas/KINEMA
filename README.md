@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 * [Sass](http://sass-lang.com/) - Css Prepocessor Comming Soon.
 * [Jquery](https://jquery.com/) - Javascript Framework.
 * [Tweenmax](https://greensock.com/) - Javascript Framework For Html 5 Animation.
-* [Photosop](http://adobe.com/Photoshop‎/) - Photosop Create A Web Desain.
+* [Photosop](http://adobe.com) - Photosop Create A Web Desain.
 
 ## Versioning
 
@@ -27,5 +27,5 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Copyright 2017 Dimas Prasetyo - Released under the MIT License
 
