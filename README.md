@@ -27,6 +27,6 @@ Version : V 1.0
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
-
+rbaik
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
