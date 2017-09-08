@@ -34,10 +34,3 @@
 // }(jQuery);
 
 //Funtion TweenLite
-(function){
-	
-	var = imagesPortofolio = new Tweenlite();
-
-
-}(jQuery);
-

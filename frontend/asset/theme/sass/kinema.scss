@@ -3,6 +3,10 @@
 	Email   : dimasprasetyo485@gmail.com;
 	Version : 1.0;
 =======================================================*/
+@import 'partials/_variables';
+@import 'partials/_colors';
+@import 'partials/_mixins';
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -24,9 +28,9 @@ audio, canvas, progress, video {
 
 a {
   background-color: transparent;
-}
-a:active, a:hover {
-  outline: 0;
+  &:active, &:hover {
+    outline: 0;
+  }
 }
 
 h1.title {
@@ -35,47 +39,49 @@ h1.title {
 }
 
 .clear {
+  &:before {
+    content: ' ';
+    display: table;
+  }
+  &:after {
+    content: ' ';
+    display: table;
+    clear: both;
+  }
   *zoom: 1;
-}
-.clear:before {
-  content: ' ';
-  display: table;
-}
-.clear:after {
-  content: ' ';
-  display: table;
-  clear: both;
 }
 
 /* MAIN */
 .main-section-aboutme .space-testiaboutme {
   margin-top: 150px;
-}
-.main-section-aboutme .space-testiaboutme .aboutme {
-  font-size: 16px;
-  line-height: 25px;
-  font-style: italic;
-  color: #000;
-}
-.main-section-aboutme .space-testiaboutme .text-centerred {
-  text-align: center;
+  .aboutme {
+    font-size: 16px;
+    line-height: 25px;
+    font-style: italic;
+    color: #000;
+  }
+  .text-centerred {
+    text-align: center;
+  }
 }
 
 /*IMAGE GRAYSCALE*/
+
 img.grayscales {
   filter: gray;
   -webkit-filter: grayscale(100%);
   -webkit-transition: all .6s ease;
   -webkit-backface-visibility: hidden;
   cursor: pointer;
-}
-img.grayscales:hover {
-  filter: none;
-  -webkit-filter: grayscale(0%);
-  cursor: pointer;
+  &:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    cursor: pointer;
+  }
 }
 
 /* BOOTSTRAP CUSTOM COMPONENT */
+
 .form-group-bottom-10 {
   margin-bottom: 10px;
 }
@@ -87,5 +93,3 @@ img.grayscales:hover {
 .form-group-bottom-100 {
   margin-bottom: 100px;
 }
-
-/*# sourceMappingURL=kinema.css.map */

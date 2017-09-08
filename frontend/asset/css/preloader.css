@@ -121,7 +121,7 @@ p {
         top: 0;
         width: 50%;
         height: 100%;
-        background: rgba(234, 234, 234, 0.99);
+        background: #efefef;
         z-index: 1000;
         -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
         -ms-transform: translateX(0);  /* IE 9 */
