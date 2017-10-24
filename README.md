@@ -1,6 +1,6 @@
 # Kinema Visual Supply 
 
-Kinema Visual Supply is a 
+Kinema Visual Supply is a personal branding identity or photowork or videowork
 
 ## Getting Started
 
@@ -9,10 +9,10 @@ These instructions will get you a copy of the project up and running on your loc
 ## Built With
 
 * [Bootstrap](http://getbootstrap.com) - The Web Framework Used.
-* [Sass](http://sass-lang.com/) - Css Prepocessor Comming Soon.
+* [Sass](http://sass-lang.com/) - syntactically awesome stylesheets css preprocessor
 * [Jquery](https://jquery.com/) - Javascript Framework.
 * [Tweenmax](https://greensock.com/) - Javascript Framework For Html 5 Animation.
-* [Photosop](http://adobe.com) - Photosop Create A Web Desain.
+* [Photosop](http://adobe.com) - Photoshop For Create a Web Design.
 
 ## Versioning
 

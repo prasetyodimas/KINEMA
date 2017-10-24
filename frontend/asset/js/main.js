@@ -54,7 +54,7 @@ $(function SliderOwl(){
 
 //Function NiceScroll
 $(function NiceScroll(){
-    $("body").niceScroll({
+    $("body.kinema-visual-supply").niceScroll({
     	cursorborder:"",
     	boxzoom:true,
     	scrollspeed: 100,
