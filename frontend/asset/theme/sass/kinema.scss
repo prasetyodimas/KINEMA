@@ -1,7 +1,7 @@
 /*========== INITIALIZER STYLES KINEMA ================
-	Author  : Dimas Prasetyo;
-	Email   : dimasprasetyo485@gmail.com;
-	Version : 1.0;
+	Author  : Dimas Prasetyo
+	Email   : dimasprasetyo485@gmail.com
+	Version : 1.0
 =======================================================*/
 @import 'partials/_variables';
 @import 'partials/_colors';
@@ -49,13 +49,6 @@ h1.title {
     clear: both;
   }
   *zoom: 1;
-}
-
-/*BRANDING IMAGES LEFT */
-.main-branding-kinema{
-	img.branding-images{
-		padding: 25px;
-	}
 }
 
 /* NAVIGATION RIGHT */
@@ -237,23 +230,53 @@ nav {
 	}
 }
 
-$icons:(instagram, facebook);
-@each $social in $icons{
-
+/* CUSTOM COMPONENT PADDING AND MARGIN */
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m-#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px;
+    }
+  
+    .p-#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px;
+    }
+  }
 }
 
-
-
-/* BOOTSTRAP CUSTOM COMPONENT */
-
-.form-group-bottom-10 {
-  margin-bottom: 10px;
+@media (min-width: 200px) and (max-width: 600px) {
+	.main-section-aboutme{
+		.space-testiaboutme{
+			margin-top: 10px !important;
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+		}
+	}
+	h1.text-centerred{
+		font-size: 24px !important;
+	} 
+	h2.text-centerred{
+		font-size: 24px !important;
+	}
+	.m-b-100{
+		margin-bottom: 25px;
+	}
+	.m-t-100{
+		margin-top: 25px;
+	}
 }
 
-.form-group-bottom-25 {
-  margin-bottom: 25px;
-}
-
-.form-group-bottom-100 {
-  margin-bottom: 100px;
-}
+@media (min-width:768px) and (max-width: 1366px){
+	.main-section-aboutme{
+		.space-testiaboutme{ 
+			.text-centerred{
+				// font-size: 25px !important;
+			}	 
+		} 
+	}
+	.space-testiaboutme{
+		margin-top: 0px !important;
+	}
+	.m-t-100{
+		margin-top: 0px !important;
+	}
+} 
