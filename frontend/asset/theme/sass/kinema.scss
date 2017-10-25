@@ -230,6 +230,11 @@ nav {
 	}
 }
 
+//Hide Menu Circle After Loaded Page
+.hideButton{
+	display: none;
+}
+
 /* CUSTOM COMPONENT PADDING AND MARGIN */
 @each $space in $spaceamounts {
   @each $side in $sides {
