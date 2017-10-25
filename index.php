@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Kinema Visual Supply</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
     <meta name="description" content="Kinema Visual Supply Photography And Cinematograpy, Kinema Studios Jasa Fotography Jogja, Jogja Making Photograph, Branding Idea, Branding Images">
     <link rel="shortcut icon" href="frontend/asset/img/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="frontend/asset/img/fav/favicon.ico" type="image/x-icon">
@@ -32,7 +32,8 @@
     <script src="frontend/libs/owl-carousel/js/owl.carousel.min.js"></script>
     <script src="frontend/asset/js/bootstrap.min.js"></script>
     <script src="frontend/asset/js/main.js"></script>
-</head>
+    <script src="frontend/asset/js/fluids.js"></script>
+
 <body class="kinema-visual-supply">
     <div id="loader-wrapper">
         <div id="loader"></div>
@@ -204,15 +205,21 @@
                         </footer>
                     </div>
                 </div>
-                <section class="video-barplayer">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="col-md-4 col-lg-offset-1">
-                                <h1 class="text-centerred">Permanent <strong>Pleasure Of</strong></h1>
+                <div class="kinema-videoplayers m-b-100">
+                    <section class="video-barplayer">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="col-sm-5 col-md-5 col-lg-5">
+                                    <p>orem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-7">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LUFT-8bySMo" frameborder="0" allowfullscreen></iframe>
+                                </div>
                             </div>
-                        </div>
-                    </div>        
-                </section>
+                        </div>        
+                    </section>
+                </div>
             </div> 
         </div> 
     </div><!-- container fluid -->
@@ -232,11 +239,12 @@
     </body>
 </html>
 <script type="text/javascript">
+    // init config circle menus
     var el = '.js-menu';
     var myMenu = cssCircleMenu(el);
+    // init config responsive video bar
+    fluidvids.init({
+      selector: ['iframe'],
+      players: ['www.youtube.com', 'player.vimeo.com']
+    });
 </script>
-<style type="text/css">
-    .hideButton{
-        display: none;
-    }
-</style>

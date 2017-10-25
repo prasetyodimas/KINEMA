@@ -219,6 +219,10 @@ nav .is-light .nav-dot {
   transition-delay: 0.4s;
 }
 
+.hideButton {
+  display: none;
+}
+
 /* CUSTOM COMPONENT PADDING AND MARGIN */
 .m-t-5 {
   margin-top: 5px;
