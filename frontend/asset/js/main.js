@@ -1,5 +1,5 @@
+//Function Css Circle Menu
 (function(window) {
-  // 'use strict';
   window.cssCircleMenu = function(el) {
     var $menu = document.querySelector(el);
     var $menuToggle = $menu ? $menu.querySelector('.js-menu-toggle') : undefined;
@@ -67,18 +67,69 @@ $(function NiceScroll(){
 	}); 
 });
 
-/*  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-e.src='frontend/asset/js/www.google-analytics.com/analytics.js';
-r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-ga('create','UA-839919-3','auto');ga('send','pageview');*/
-
-// Function Loader
+// Function Loader Page
 $(document).ready(function() {
 	setTimeout(function(){
       $('body').addClass('loaded');
 	    $('.hideButton').removeClass('hideButton');
   }, 4000);
 });
-     
+
+var Conclave=(function(){
+  var buArr =[],arlen;
+  return {
+    init:function(){
+      this.addCN();this.clickReg();
+    },
+    addCN:function(){
+      var buarr=["holder_bu_awayL1","holder_bu_center","holder_bu_awayR1"];
+      for(var i=1;i<=buarr.length;++i){
+        // console.log(buarr);
+        $("#bu"+i).removeClass().addClass(buarr[i-1]+" holder_bu");
+      }
+    },
+    clickReg:function(){
+      $(".holder_bu").each(function(){
+        buArr.push($(this).attr('class'))
+      });
+      arlen=buArr.length;
+      for(var i=0;i<arlen;++i){
+        buArr[i]=buArr[i].replace(" holder_bu","")
+      };
+
+      $(".holder_bu").click(function(buid){
+        var me   = this,
+            id   = this.id||buid,
+            joId = $("#"+id),joCN=joId.attr("class").replace(" holder_bu","");
+        var cpos = buArr.indexOf(joCN),
+            mpos = buArr.indexOf("holder_bu_center");
+
+        if(cpos!=mpos){
+            tomove=cpos>mpos?arlen-cpos+mpos:mpos-cpos;
+          while(tomove){
+            var t = buArr.shift();
+            buArr.push(t);
+            for(var i=1;i<=arlen;++i){
+              $("#bu"+i).removeClass().addClass(buArr[i-1]+" holder_bu");
+            }
+          --tomove;
+          }
+        }
+      })
+
+    },
+    auto:function(){
+      for(i=1;i<=1;++i){
+        $(".holder_bu").delay(2000).trigger('click',"bu"+i).delay(4000);
+        console.log("called this function !!");
+      }
+    }
+  };
+})();
+
+//Init Conclave Function
+$(document).ready(function(){
+  window['conclave']=Conclave;
+  Conclave.init();
+})     
+
