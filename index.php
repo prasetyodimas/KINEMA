@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>Kinema Visual Supply</title>
+<!-- Favicon -->
+    <link rel="shortcut icon" href="img\favicon\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img\favicon\favicon.ico" type="image/x-icon">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Kinema Visual Supply, Kinema, kinema art, Photography And Cinematograpy, Kinema Studios Jasa Fotography Jogja, Jogja Making Photograph, Branding Idea, Branding Images">
@@ -70,7 +73,7 @@
                             <div class="col-lg-6">
                                 <div class="col-sm-6 col-md-6 col-lg-11 space-testiaboutme">
                                     <div class="form-group-bottom-25">
-                                        <h1 class="text-centerred"><strong>Who We Are?</strong></h1>
+                                        <h1 class="text-centerred">Who<strong> We Are?</strong></h1>
                                     </div>
                                     <p class="aboutme"> Kinema is an award-winning, full-service digital creative agency located in Yogyakarta, Indonesia. Specializing in design, phpthography and videograhpy, w
                                             e can help your business achieve its goals, whatever they may be. If you are seeking a team for a one-off project,
@@ -147,7 +150,7 @@
                                     <h2 class="text-centerred">Bimo & Dean</strong></h2>
                                 </div>
                                 <p class="aboutme">These two are quite spectacular, we mean really something special. 
-                                From strangers to a best friend, and from that on Hilman & Yosi started to take more steps into a sweet relationship. 
+                                From strangers to a best friend, and from that on Bimo & Dean started to take more steps into a sweet relationship. 
                                 To hear their story of how they met for the first time and how they've fallen in love over and over again were so much 
                                 exceptional yet emotional to us that some strangers as us could be the person they trust.
                                 </p>
@@ -217,7 +220,7 @@
                                     <!-- <img src="frontend/asset/img/images/A.png" class="img-responsive"> -->
                                     <div class="col-sm-12 col-md-12 col-lg-8 col-lg-push-2 about-contact__us">
                                         <h2 class="text-center">@<strong>kinema.co</strong></h2>
-                                        <p class="text-center">Jl. Wates Km 3,5 Rejodadi, Ngestiharjo, Kasihan, Bantul Regency, Special Region of Yogyakarta 55184</p>
+                                        <p class="text-center">Jl. Wates Km 3,5 Rejodadi, Ngestiharjo, Kasihan, Bantul Regency, Special Region of Yogyakarta 55184 Phone. 0811-2829-998</p>
                                     </div>
                                 </div>
                             </div>
