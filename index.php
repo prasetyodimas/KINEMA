@@ -75,8 +75,8 @@
                                     <div class="form-group-bottom-25">
                                         <h1 class="text-centerred">Who<strong> We Are?</strong></h1>
                                     </div>
-                                    <p class="aboutme"> Kinema is an award-winning, full-service digital creative agency located in Yogyakarta, Indonesia. Specializing in design, phpthography and videograhpy, w
-                                            e can help your business achieve its goals, whatever they may be. If you are seeking a team for a one-off project,
+                                    <p class="aboutme"> Kinema is an award-winning, full-service digital creative agency located in Yogyakarta, Indonesia. Specializing in design, phothography and videogrhapy, 
+                                    we can help your business achieve its goals, whatever they may be. If you are seeking a team for a one-off project,
                                             or one which you can develop a lasting relationship with, we invite you to get in touch.
                                     </p>
                                     <div class="form-group">
