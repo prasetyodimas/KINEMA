@@ -136,7 +136,7 @@
                             </div>
                         </div>
                     </div> -->
-                </section> --> -->
+                </section>
 
                 <!-- PORTOFOLIO KINEMA -->
                 <section class="main-section-portofolios cb03 m-b-100" id="four">
@@ -206,6 +206,26 @@
                                 </div>
                             </div>
                         </div>        
+                    </div>
+                </section>
+
+                <!-- PROJECT KINEMA -->
+
+                <section id="eight">
+                    <div class="project">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <h1 class="text-center font-weight-light mb-0">All Kinds <strong>Of Project<strong></h1>
+                                    <div class="col-md-6">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C-2u6A5k4xM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7kOMEPmU1vc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>                
+                                    </div>
+                                    <div class="col-md-6">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nR-JQ-vvBAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>                                   
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QysVxWDpk_w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
+                                    </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
