@@ -1,0 +1,44 @@
+//MAIN RESPONSIVE UTILITIES
+
+//media query phone screen
+@media (min-width: 200px) and (max-width: 600px) {
+	.main-section-aboutme{
+		.space-testiaboutme{
+			margin-top: 10px !important;
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+		}
+	}
+	h1.text-centerred{
+		font-size: 24px !important;
+	} 
+	h2.text-centerred{
+		font-size: 24px !important;
+	}
+	.m-b-100{
+		margin-bottom: 25px;
+	}
+	.m-t-100{
+		margin-top: 25px;
+	}
+}
+
+//media query tablet and desktop screen
+@media (min-width:768px) and (max-width: 1366px){
+	.main-section-aboutme{
+		.space-testiaboutme{ 
+			.text-centerred{
+				// font-size: 25px !important;
+			}	 
+		} 
+	}
+	.space-testiaboutme{
+		margin-top: 0px !important;
+	}
+	.m-t-100{
+		margin-top: 0px !important;
+	}
+} 
+
+
+//CIRCLE MENUS 
