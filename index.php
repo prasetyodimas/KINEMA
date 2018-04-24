@@ -38,6 +38,8 @@
 <script src="frontend/asset/js/fluids.js"></script>
 
 
+
+
 <body class="kinema-visual-supply">
     <div id="loader-wrapper">
         <div id="loader"></div>
@@ -104,38 +106,6 @@
                             </div>
                         </div>
                     </div>
-                </section>
-
-                <!-- <!-- PORTOFOLIO KINEMA -->
-               <!--  <section class="main-section-portofolios m-b-100" id="three">
-                    <div class="row innerKinema3" id="trigger-2">
-                        <div class="col-lg-12">
-                            <div class="col-sm-6 col-md-6 col-lg-6 space-testiaboutme main-branding-kinema m-t-100">
-                                <div class="form-group-bottom-25">
-                                    <h1 class="text-centerred">Permanent <strong>Pleasure Of</strong></h1>
-                                </div>
-                                <div class="">
-                                    <h2 class="text-centerred">Bimo & Dean</strong></h2>
-                                </div>
-                                <p class="aboutme">These two are quite spectacular, we mean really something special. 
-                                From strangers to a best friend, and from that on Hilman & Yosi started to take more steps into a sweet relationship. 
-                                To hear their story of how they met for the first time and how they've fallen in love over and over again were so much 
-                                exceptional yet emotional to us that some strangers as us could be the person they trust.
-                                </p>
-                                <!-- <div class="form-group">
-                                    <p class="aboutme">
-                                    ipsum quia dolor sit amet, consectetur,adipisci velit, sed quaia non numquam eius modi tempora incidunt ut 
-                                    labore et dolore magnam aliquam quaerat voluptatem.
-                                    </p>
-                                </div>
-                            </div> -->
-                           <!--  <div class="col-lg-6">
-                                <div class="col-sm-6 col-md-6 col-lg-12 col-lg-offset-2 section-main-portofolio">
-                                    <img src="frontend/asset/img/images/porto-I.png" class="img-responsive grayscales">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </section>
 
                 <!-- PORTOFOLIO KINEMA -->
@@ -230,27 +200,41 @@
                 </section>
 
                 <!-- FOOTER KINEMA -->
-                <section id="seven">
-                    <div class="footer-container ">
-                        <footer class="wrapper-contact-us">
-                            <div class="row innerKinema7">
-                                <div class="main-contact__us col-lg-12">
-                                    <h1 class="text-center font-weight-light mb-0">Connect <strong>With Us<strong></h1>
-                                    <img src="frontend/asset/img/images/man-camera.png" class="img-responsive image-contact__us">
-                                    <!-- <img src="frontend/asset/img/images/A.png" class="img-responsive"> -->
-                                    <div class="col-sm-12 col-md-12 col-lg-8 col-lg-push-2 about-contact__us">
-                                        <h2 class="text-center">@<strong>kinema.co</strong></h2>
-                                        <p class="text-center">Jl. Wates Km 3,5 Rejodadi, Ngestiharjo, Kasihan, Bantul Regency, Special Region of Yogyakarta 55184 Phone. 0811-2829-998</p>
-                                    </div>
+                <footer class="footer-kinema">
+                    <div class="container-fluid">
+                        <div class="col-sm-12 col-md-12">
+                        <div class="row" >
+                            <h1 class="text-center font-weight-light mb-0">Connect <strong>With Us<strong></h1>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="">
+                                <div id="maps"></div>
+                            </div>
+                        </div>   
+                        
+                        <div class="media-soial text-center">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="row">
+                                <h3 class="text-center">Follow Us</h3>
+                                <a class="box-outersocial" href="https://www.youtube.com/channel/UCZYxNIrnBF9145dMd2rgaeQ" target="_blank">
+                                <i class="fa fa-2x fa-youtube icon-inside"></i></a>
+                                <a class="box-outersocial" href="https://www.instagram.com/kinema.co" target="_blank">
+                                <i class="fa fa-2x fa-instagram icon-inside"></i></a>
                                 </div>
                             </div>
-                        </footer>
-                    </div>
-                </section>
+                        </div>
+                        </div class"address">
+                            <div class="col-sm-12 col-md-12 col-lg-8 col-lg-push-2 about-contact__us">
+                                <h2 class="text-center">@<strong>kinema.co</strong></h2>
+                                <p class="text-center">Jl. Wates Km 3,5 Rejodadi, Ngestiharjo, Kasihan, Bantul Regency, Special Region of Yogyakarta 55184 Phone. 0811-2829-998</p>
+                            </div>
+                        </div>
+                </footer>
             </div> 
         </div> 
-    </div><!-- container fluid -->
-    <nav class="c-circle-menu hideButton js-menu">
+    </div>
+
+    <!-- container fluid -->
+ <!--    <nav class="c-circle-menu hideButton js-menu">
         <button class="c-circle-menu__toggle js-menu-toggle">
             <span>Toggle</span>
         </button>
@@ -262,7 +246,7 @@
             <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
         </ul>
       <div class="c-circle-menu__mask js-menu-mask"></div>
-    </nav>
+    </nav> -->
     </body>
 </html>
 
@@ -295,6 +279,18 @@
         
     })
 
+   
+    var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('maps'), {
+          center: {lat: -7.8007611, lng: 110.3325038,},
+          zoom: 15
+        });
+      }
+    </script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsvCNUPlJNW9R951u-BpBdflIUEpmmMnE&callback=initMap">
 </script>
 
 <!-- Just tested Code & animation -->
@@ -316,4 +312,11 @@
     transition: all 1s ease-out;
 }
 
+#maps{
+  height: 300px;
+  width: 100%;
+  background: grey;
+}
+
 </style>
+
