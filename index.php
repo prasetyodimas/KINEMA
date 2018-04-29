@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <title>Kinema Visual Supply</title>
 <!-- Favicon -->
-    <link rel="shortcut icon" href="img\favicon\favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img\favicon\favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img\favicon\favicon.ico" type="image/x-icon">
+<link rel="icon" href="img\favicon\favicon.ico" type="image/x-icon">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Kinema Visual Supply, Kinema, kinema art, Photography And Cinematograpy, Kinema Studios Jasa Fotography Jogja, Jogja Making Photograph, Branding Idea, Branding Images">
@@ -14,7 +14,7 @@
 <link rel="icon" href="frontend/asset/img/fav/favicon.ico" type="image/x-icon">
 <!-- Google Authorship and Publisher Markup -->
 <link rel="author" href="">
-<link rel="publisher" href=""> 
+<link rel="publisher" href="">
 <!-- CSS -->
 <link rel="stylesheet" href="frontend/asset/theme/css/kinema.min.css">
 <link rel="stylesheet" href="frontend/asset/theme/css/bootstrap.min.css">
@@ -37,9 +37,6 @@
 <script src="frontend/asset/js/main.js"></script>
 <script src="frontend/asset/js/fluids.js"></script>
 
-
-
-
 <body class="kinema-visual-supply">
     <div id="loader-wrapper">
         <div id="loader"></div>
@@ -49,9 +46,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="container">
-
                 <!-- HOME PAGES KINEMA -->
-                <section class="main-section-homepage" id="">
+                <section class="main-section-homepage">
                     <div class="row innerKinema1">
                         <div class="col-sm-12 col-md-12 col-lg-12 m-b-50">
                             <img src="frontend/asset/img/images/kinemavisual.jpg" class="img-responsive">
@@ -64,7 +60,7 @@
                 </section>
 
                 <!-- ABOUT KINEMA -->
-                <section class="main-section-aboutme m-b-100">
+                <section class="main-section-aboutme" style="display: none;">
                     <div class="row innerKinema2" id="trigger1">
                         <div class="col-lg-12">
                             <div class="col-sm-5 col-md-5 col-lg-6">
@@ -77,9 +73,9 @@
                                     <div class="form-group-bottom-25">
                                         <h1 class="text-centerred">Who<strong> We Are?</strong></h1>
                                     </div>
-                                    <p class="aboutme"> Kinema is an award-winning, full-service digital creative agency located in Yogyakarta, Indonesia. Specializing in design, phothography and videogrhapy, 
-                                    we can help your business achieve its goals, whatever they may be. If you are seeking a team for a one-off project,
-                                            or one which you can develop a lasting relationship with, we invite you to get in touch.
+                                    <p class="aboutme"> Kinema is an award-winning, full-service digital creative agency located in Yogyakarta, Indonesia. Specializing in design, phothography and videogrhapy,
+                                      we can help your business achieve its goals, whatever they may be. If you are seeking a team for a one-off project,
+                                      or one which you can develop a lasting relationship with, we invite you to get in touch.
                                     </p>
                                     <div class="form-group">
                                        <!--  <p class="aboutme">
@@ -119,14 +115,14 @@
                                 <div class="">
                                     <h2 class="text-centerred">Bimo & Dean</strong></h2>
                                 </div>
-                                <p class="aboutme">These two are quite spectacular, we mean really something special. 
-                                From strangers to a best friend, and from that on Bimo & Dean started to take more steps into a sweet relationship. 
-                                To hear their story of how they met for the first time and how they've fallen in love over and over again were so much 
-                                exceptional yet emotional to us that some strangers as us could be the person they trust.
+                                <p class="aboutme">These two are quite spectacular, we mean really something special.
+                                    From strangers to a best friend, and from that on Bimo & Dean started to take more steps into a sweet relationship.
+                                    To hear their story of how they met for the first time and how they've fallen in love over and over again were so much
+                                    exceptional yet emotional to us that some strangers as us could be the person they trust.
                                 </p>
                                <!--  <div class="form-group">
                                     <p class="aboutme">
-                                    ipsum quia dolor sit amet, consectetur,adipisci velit, sed quaia non numquam eius modi tempora incidunt ut 
+                                    ipsum quia dolor sit amet, consectetur,adipisci velit, sed quaia non numquam eius modi tempora incidunt ut
                                     labore et dolore magnam aliquam quaerat voluptatem.
                                     </p>
                                 </div> -->
@@ -150,11 +146,6 @@
                                 <div class="item"><img src="frontend/asset/img/images/slider-3.jpg" style="width:440px;" class="img-responsive"></div>
                             </div>
                         </div>
-                        <!-- <div id="wrapper_bu">
-                            <div id="bu1"><p class="txt_Center txt_h1"></p></div>
-                            <div id="bu2"><p class="txt_Center txt_h1"></p></div>
-                            <div id="bu3"><p class="txt_Center txt_h1"></p></div>
-                        </div> -->
                     </div>
                 </section>
 
@@ -165,35 +156,34 @@
                             <div class="container-barplayer col-lg-12">
                                 <div class="col-sm-5 col-md-5 col-lg-5">
                                     <p class="text-desc__video"><em>These two are quite spectacular, we mean really something special.
-                                     From strangers to a best friend, and from that on Hilman & Yosi started to take more steps into a sweet relationship. 
-                                     To hear their story of how they met for the first time and how they've fallen in love over and over again were so much exceptional 
+                                     From strangers to a best friend, and from that on Hilman & Yosi started to take more steps into a sweet relationship.
+                                     To hear their story of how they met for the first time and how they've fallen in love over and over again were so much exceptional
                                      yet emotional to us that some strangers as us could be the person they trust.</em>
                                     </p>
                                     <img src="frontend/asset/img/images/M.png" class="img-responsive">
                                 </div>
                                 <div class="col-sm-6 col-md-6 col-lg-7">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LUFT-8bySMo" frameborder="0" allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube.com/embed/LUFT-8bySMo" frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
-                        </div>        
+                        </div>
                     </div>
                 </section>
 
                 <!-- PROJECT KINEMA -->
-
                 <section id="eight">
                     <div class="project">
                         <div class="col-md-12">
                             <div class="row">
                                 <h1 class="text-center font-weight-light mb-0">All Kinds <strong>Of Project<strong></h1>
-                                    <div class="col-md-6">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C-2u6A5k4xM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7kOMEPmU1vc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>                
-                                    </div>
-                                    <div class="col-md-6">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nR-JQ-vvBAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>                                   
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QysVxWDpk_w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
-                                    </div>
+                                  <div class="col-md-6">
+                                      <iframe src="https://www.youtube.com/embed/C-2u6A5k4xM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
+                                      <iframe src="https://www.youtube.com/embed/7kOMEPmU1vc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <iframe src="https://www.youtube.com/embed/nR-JQ-vvBAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
+                                      <iframe src="https://www.youtube.com/embed/QysVxWDpk_w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -209,8 +199,8 @@
                             <div class="">
                                 <div id="maps"></div>
                             </div>
-                        </div>   
-                        
+                        </div>
+
                         <div class="media-soial text-center">
                             <div class="col-sm-6 col-md-6">
                                 <div class="row">
@@ -229,8 +219,8 @@
                             </div>
                         </div>
                 </footer>
-            </div> 
-        </div> 
+            </div>
+        </div>
     </div>
 
     <!-- container fluid -->
@@ -240,10 +230,10 @@
         </button>
         <ul class="c-circle-menu__items">
             <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li>
-            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
-            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
-            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
-            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
+            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li>
+            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li>
+            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li>
+            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li>
         </ul>
       <div class="c-circle-menu__mask js-menu-mask"></div>
     </nav> -->
@@ -276,10 +266,10 @@
     })
     .addTo(controller);
     var scene2 = new ScrollMagic.Scene({
-        
+
     })
 
-   
+
     var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('maps'), {
@@ -299,7 +289,7 @@
 .main-section-aboutme .innerKinema2{
     opacity: 0;
     transform: translateY(50px);
-    transition: all 1s ease-out; 
+    transition: all 1s ease-out;
 }
 
 .main-section-aboutme .innerKinema2.fade-in{
@@ -319,4 +309,3 @@
 }
 
 </style>
-
