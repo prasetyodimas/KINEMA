@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>Kinema Visual Supply</title>
+<!-- Favicon -->
+    <link rel="shortcut icon" href="img\favicon\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img\favicon\favicon.ico" type="image/x-icon">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Kinema Visual Supply, Kinema, kinema art, Photography And Cinematograpy, Kinema Studios Jasa Fotography Jogja, Jogja Making Photograph, Branding Idea, Branding Images">
@@ -33,6 +36,10 @@
 <script src="frontend/asset/js/bootstrap.min.js"></script>
 <script src="frontend/asset/js/main.js"></script>
 <script src="frontend/asset/js/fluids.js"></script>
+
+
+
+
 <body class="kinema-visual-supply">
     <div id="loader-wrapper">
         <div id="loader"></div>
@@ -42,6 +49,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="container">
+
                 <!-- HOME PAGES KINEMA -->
                 <section class="main-section-homepage" id="">
                     <div class="row innerKinema1">
@@ -54,7 +62,8 @@
                         </div>
                     </div>
                 </section>
-                <!-- PORTOFOLIO KINEMA -->
+
+                <!-- ABOUT KINEMA -->
                 <section class="main-section-aboutme m-b-100">
                     <div class="row innerKinema2" id="trigger1">
                         <div class="col-lg-12">
@@ -66,19 +75,18 @@
                             <div class="col-lg-6">
                                 <div class="col-sm-6 col-md-6 col-lg-11 space-testiaboutme">
                                     <div class="form-group-bottom-25">
-                                        <h1 class="text-centerred">My Name is <strong>Ringgo</strong></h1>
+                                        <h1 class="text-centerred">Who<strong> We Are?</strong></h1>
                                     </div>
-                                    <p class="aboutme">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt   
-                                        mollit anim id est laborum. sed ut perspiciatis unde omnis iste
-                                        natus erorr sit volupatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                                        veritatis et quasi voluptas sit aspernatur aut odit aut fugit,sed quia cosnequuntur magni
-                                        dolores eos qui rationae voluptatem sequi nesciunt.
+                                    <p class="aboutme"> Kinema is an award-winning, full-service digital creative agency located in Yogyakarta, Indonesia. Specializing in design, phothography and videogrhapy, 
+                                    we can help your business achieve its goals, whatever they may be. If you are seeking a team for a one-off project,
+                                            or one which you can develop a lasting relationship with, we invite you to get in touch.
                                     </p>
                                     <div class="form-group">
-                                        <p class="aboutme">
-                                            ipsum quia dolor sit amet, consectetur,adipisci velit, sed quaia non numquam eius modi tempora incidunt ut 
-                                            labore et dolore magnam aliquam quaerat voluptatem.
-                                        </p>
+                                       <!--  <p class="aboutme">
+                                            Kinema is an award-winning, full-service digital creative agency located in Yogyakarta, Indonesia. Specializing in design, phpthography and videograhpy, w
+                                            e can help your business achieve its goals, whatever they may be. If you are seeking a team for a one-off project,
+                                            or one which you can develop a lasting relationship with, we invite you to get in touch.
+                                        </p> -->
                                     </div>
                                     <div class="space-testisocials">
                                         <ul class="ul-outersocial">
@@ -99,38 +107,7 @@
                         </div>
                     </div>
                 </section>
-                <!-- PORTOFOLIO KINEMA -->
-                <section class="main-section-portofolios m-b-100" id="three">
-                    <div class="row innerKinema3" id="trigger-2">
-                        <div class="col-lg-12">
-                            <div class="col-sm-6 col-md-6 col-lg-6 space-testiaboutme main-branding-kinema m-t-100">
-                                <div class="form-group-bottom-25">
-                                    <h1 class="text-centerred">Permanent <strong>Pleasure Of</strong></h1>
-                                </div>
-                                <div class="">
-                                    <h2 class="text-centerred">Bimo & Dean</strong></h2>
-                                </div>
-                                <p class="aboutme">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt   
-                                    mollit anim id est laborum. sed ut perspiciatis unde omnis iste
-                                    natus erorr sit volupatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                                    veritatis et quasi voluptas sit aspernatur aut odit aut fugit,sed quia cosnequuntur magni
-                                    dolores eos qui rationae voluptatem sequi nesciunt.
-                                </p>
-                                <div class="form-group">
-                                    <p class="aboutme">
-                                    ipsum quia dolor sit amet, consectetur,adipisci velit, sed quaia non numquam eius modi tempora incidunt ut 
-                                    labore et dolore magnam aliquam quaerat voluptatem.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="col-sm-6 col-md-6 col-lg-12 col-lg-offset-2 section-main-portofolio">
-                                    <img src="frontend/asset/img/images/porto-I.png" class="img-responsive grayscales">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
                 <!-- PORTOFOLIO KINEMA -->
                 <section class="main-section-portofolios cb03 m-b-100" id="four">
                     <div class="row innerKinema4">
@@ -142,18 +119,17 @@
                                 <div class="">
                                     <h2 class="text-centerred">Bimo & Dean</strong></h2>
                                 </div>
-                                <p class="aboutme">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt   
-                                    mollit anim id est laborum. sed ut perspiciatis unde omnis iste
-                                    natus erorr sit volupatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                                    veritatis et quasi voluptas sit aspernatur aut odit aut fugit,sed quia cosnequuntur magni
-                                    dolores eos qui rationae voluptatem sequi nesciunt.
+                                <p class="aboutme">These two are quite spectacular, we mean really something special. 
+                                From strangers to a best friend, and from that on Bimo & Dean started to take more steps into a sweet relationship. 
+                                To hear their story of how they met for the first time and how they've fallen in love over and over again were so much 
+                                exceptional yet emotional to us that some strangers as us could be the person they trust.
                                 </p>
-                                <div class="form-group">
+                               <!--  <div class="form-group">
                                     <p class="aboutme">
                                     ipsum quia dolor sit amet, consectetur,adipisci velit, sed quaia non numquam eius modi tempora incidunt ut 
                                     labore et dolore magnam aliquam quaerat voluptatem.
                                     </p>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="col-lg-6">
                                 <div class="col-sm-6 col-md-6 col-lg-12 col-lg-offset-2 section-main-portofolio">
@@ -163,6 +139,7 @@
                         </div>
                     </div>
                 </section>
+
                 <!-- SLIDER KINEMA -->
                 <section class="main-slider-kinema m-b-100" id="five">
                     <div class="row innerKinema5">
@@ -180,16 +157,17 @@
                         </div> -->
                     </div>
                 </section>
+
                 <!-- VIDEOBAR PLAYER KINEMA -->
                 <section class="video-barplayer" id="six">
                     <div class="kinema-videoplayers m-b-100">
                         <div class="row innerKinema6">
                             <div class="container-barplayer col-lg-12">
                                 <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <p class="text-desc__video"><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                                        took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                                        but also the leap into electronic typesetting, remaining essentially unchanged.</em>
+                                    <p class="text-desc__video"><em>These two are quite spectacular, we mean really something special.
+                                     From strangers to a best friend, and from that on Hilman & Yosi started to take more steps into a sweet relationship. 
+                                     To hear their story of how they met for the first time and how they've fallen in love over and over again were so much exceptional 
+                                     yet emotional to us that some strangers as us could be the person they trust.</em>
                                     </p>
                                     <img src="frontend/asset/img/images/M.png" class="img-responsive">
                                 </div>
@@ -200,29 +178,63 @@
                         </div>        
                     </div>
                 </section>
-                <!-- FOOTER KINEMA -->
-                <section id="seven">
-                    <div class="footer-container ">
-                        <footer class="wrapper-contact-us">
-                            <div class="row innerKinema7">
-                                <div class="main-contact__us col-lg-12">
-                                    <h1 class="text-uppercase">Contact Us</h1>
-                                    <img src="frontend/asset/img/images/man-camera.png" class="img-responsive image-contact__us">
-                                    <!-- <img src="frontend/asset/img/images/A.png" class="img-responsive"> -->
-                                    <div class="col-sm-12 col-md-12 col-lg-8 col-lg-push-2 about-contact__us">
-                                        <h2 class="text-center">@<strong>kinema.co</strong></h2>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
-                                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+
+                <!-- PROJECT KINEMA -->
+
+                <section id="eight">
+                    <div class="project">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <h1 class="text-center font-weight-light mb-0">All Kinds <strong>Of Project<strong></h1>
+                                    <div class="col-md-6">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C-2u6A5k4xM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7kOMEPmU1vc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>                
                                     </div>
-                                </div>
+                                    <div class="col-md-6">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nR-JQ-vvBAs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>                                   
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QysVxWDpk_w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <br>
+                                    </div>
                             </div>
-                        </footer>
+                        </div>
                     </div>
                 </section>
+
+                <!-- FOOTER KINEMA -->
+                <footer class="footer-kinema">
+                    <div class="container-fluid">
+                        <div class="col-sm-12 col-md-12">
+                        <div class="row" >
+                            <h1 class="text-center font-weight-light mb-0">Connect <strong>With Us<strong></h1>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="">
+                                <div id="maps"></div>
+                            </div>
+                        </div>   
+                        
+                        <div class="media-soial text-center">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="row">
+                                <h3 class="text-center">Follow Us</h3>
+                                <a class="box-outersocial" href="https://www.youtube.com/channel/UCZYxNIrnBF9145dMd2rgaeQ" target="_blank">
+                                <i class="fa fa-2x fa-youtube icon-inside"></i></a>
+                                <a class="box-outersocial" href="https://www.instagram.com/kinema.co" target="_blank">
+                                <i class="fa fa-2x fa-instagram icon-inside"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div class"address">
+                            <div class="col-sm-12 col-md-12 col-lg-8 col-lg-push-2 about-contact__us">
+                                <h2 class="text-center">@<strong>kinema.co</strong></h2>
+                                <p class="text-center">Jl. Wates Km 3,5 Rejodadi, Ngestiharjo, Kasihan, Bantul Regency, Special Region of Yogyakarta 55184 Phone. 0811-2829-998</p>
+                            </div>
+                        </div>
+                </footer>
             </div> 
         </div> 
-    </div><!-- container fluid -->
-    <nav class="c-circle-menu hideButton js-menu">
+    </div>
+
+    <!-- container fluid -->
+ <!--    <nav class="c-circle-menu hideButton js-menu">
         <button class="c-circle-menu__toggle js-menu-toggle">
             <span>Toggle</span>
         </button>
@@ -231,12 +243,14 @@
             <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
             <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
             <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
-            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"> </a></li> 
+            <li class="c-circle-menu__item"><a href="#" class="c-circle-menu__link"></a></li> 
         </ul>
       <div class="c-circle-menu__mask js-menu-mask"></div>
-    </nav>
+    </nav> -->
     </body>
 </html>
+
+<!-- ALL JS HERE -->
 <script>Conclave.auto()</script>
 <script type="text/javascript">
     // init config circle menus
@@ -265,6 +279,18 @@
         
     })
 
+   
+    var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('maps'), {
+          center: {lat: -7.8007611, lng: 110.3325038,},
+          zoom: 15
+        });
+      }
+    </script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsvCNUPlJNW9R951u-BpBdflIUEpmmMnE&callback=initMap">
 </script>
 
 <!-- Just tested Code & animation -->
@@ -286,6 +312,11 @@
     transition: all 1s ease-out;
 }
 
-</style>
+#maps{
+  height: 300px;
+  width: 100%;
+  background: grey;
+}
 
+</style>
 
